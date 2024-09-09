@@ -3,7 +3,7 @@ const app = express();
 const todoRoutes = require('./Routes/TodoRoutes');
 app.use(express.json());
 
-app.use('/todoList',todoRoutes)
+app.use('/',todoRoutes)
 
 const port = 5000
 
